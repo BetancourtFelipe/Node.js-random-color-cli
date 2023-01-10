@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
-  "repository": "https://github.com/BetancourtFelipe/random-color-cli.git",
+  "repository": "https://github.com/BetancourtFelipe/Node.js-random-color-cli.git",
   "author": "Felipe Palacio <felipepalaciobetancourt@gmail.com>",
   "license": "MIT",
   "devDependencies": {
