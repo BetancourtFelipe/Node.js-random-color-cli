@@ -12,16 +12,7 @@ function colorAndLog(str) {
   console.log(chalk.hex(color).bold(str));
 }
 
-// LONG VERSION
-// colorAndLog("##############################");
-// colorAndLog("##############################");
-// colorAndLog("##############################");
-// colorAndLog("########              ########");
-// colorAndLog(`########   ${color}    ########`);
-// colorAndLog("########              ########");
-// colorAndLog("##############################");
-// colorAndLog("##############################");
-// colorAndLog("##############################");
+//If -> else if ('ask') question
 
 // SHORT VERSION
 colorAndLog(`##############################
