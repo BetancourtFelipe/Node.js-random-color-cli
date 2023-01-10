@@ -1,5 +1,5 @@
 import chalk from 'chalk';
-import randomColor from 'randomColor';
+import randomColor from 'randomcolor';
 
 const lum = process.argv[3];
 const col = process.argv[2];
@@ -12,7 +12,7 @@ function colorAndLog(str) {
   console.log(chalk.hex(color).bold(str));
 }
 
-//LONG VERSION
+// LONG VERSION
 // colorAndLog("##############################");
 // colorAndLog("##############################");
 // colorAndLog("##############################");
@@ -23,7 +23,7 @@ function colorAndLog(str) {
 // colorAndLog("##############################");
 // colorAndLog("##############################");
 
-//SHORT VERSION
+// SHORT VERSION
 colorAndLog(`##############################
 ##############################
 ##############################
