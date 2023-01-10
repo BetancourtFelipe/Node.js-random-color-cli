@@ -8,6 +8,7 @@ const color = randomColor({
   luminosity: lum,
   hue: col,
 });
+
 function colorAndLog(str) {
   console.log(chalk.hex(color).bold(str));
 }
