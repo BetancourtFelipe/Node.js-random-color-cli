@@ -15,7 +15,6 @@ function colorAndLog(str) {
 
 // If -> else if ('ask') question
 
-// SHORT VERSION
 colorAndLog(`##############################
 ##############################
 ##############################
