@@ -56,7 +56,8 @@
     "@typescript-eslint/utils": "5.47.1"
   },
   "dependencies": {
-    "chalk": "^5.2.0",
+    "my-colors": "^1.0.0",
+    "prompt-sync": "^4.2.0",
     "randomcolor": "^0.6.2"
   }
 }

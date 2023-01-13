@@ -13,7 +13,10 @@ function colorAndLog(str) {
   console.log(chalk.hex(color).bold(str));
 }
 
-// If -> else if ('ask') question
+if (process.argv[2] === 'ask') {
+  hue = prompt('what the hue: ');
+  luminosity = prompt('what luminosity (bright, light or dark): ');
+}
 
 colorAndLog(`##############################
 ##############################
